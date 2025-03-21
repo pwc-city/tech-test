@@ -1,0 +1,235 @@
+.chip {
+	background: none;
+  	border: none;
+	padding: 0;
+	font: inherit;
+	outline: none;
+	color: inherit;
+	cursor: pointer;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	max-width: 100%;
+	width: fit-content;
+	box-sizing: border-box;
+	transition: all 0.3s ease;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	.label {
+		padding-left: var(--spacing-1);
+		padding-right: var(--spacing-1);
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow-x: hidden;
+
+		text-align: center;
+		text-underline-position: from-font;
+		text-decoration-skip-ink: none;
+	}
+
+	.icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	
+		pointer-events: none;
+		position: relative;
+		z-index: 5;
+	}
+}
+
+.chip-xlarge {
+	height: 2.25rem;
+	gap: var(--spacing-2);
+	padding: var(--spacing-4);
+	border-radius: var(--border-radius-medium);
+
+	.icon {
+		svg {
+			height: 1.25rem;
+			width: 1.25rem;
+		}
+	}
+}
+
+.chip-xlarge.chip-outline, .chip-xlarge.chip-filled {
+	border-width: var(--border-width-medium);
+	&:focus-visible {
+		box-shadow: 0 0 0 var(--border-width-medium) var(--colour-dark-blue-100);
+	}
+}
+
+
+.chip-large {
+	height: 2rem;
+	gap: var(--spacing-1);
+	padding: var(--spacing-4);
+	border-radius: var(--border-radius-medium);
+
+	.icon {
+		svg {
+			height: 1.25rem;
+			width: 1.25rem;
+		}
+	}
+}
+
+.chip-large.chip-outline, .chip-large.chip-filled {
+	border-width: var(--border-width-medium);
+	&:focus-visible {
+		box-shadow: 0 0 0 var(--border-width-medium) var(--colour-dark-blue-100);
+	}
+}
+
+.chip-medium {
+	height: 1.75rem;
+	gap: var(--spacing-1);
+	padding: var(--spacing-3) var(--spacing-4);
+	border-radius: var(--border-radius-small);
+
+	.icon {
+		svg {
+			height: 1rem;
+			width: 1rem;
+		}
+	}
+}
+
+.chip-medium.chip-outline, .chip-medium.chip-filled {
+	border-width: var(--border-width-small);
+	&:focus-visible {
+		box-shadow: 0 0 0 var(--border-width-small) var(--colour-dark-blue-100);
+	}
+}
+
+.chip-small {
+	height: 1.5rem;
+	gap: var(--spacing-0);
+	padding: var(--spacing-2) var(--spacing-3);
+	border-radius: var(--border-radius-small);
+
+	.icon {
+		svg {
+			height: 0.75rem;
+			width: 0.75rem;
+		}
+	}
+}
+
+.chip-small.chip-outline, .chip-small.chip-filled {
+	border-width: var(--border-width-small);
+	&:focus-visible {
+		box-shadow: 0 0 0 var(--border-width-small) var(--colour-dark-blue-100);
+	}
+}
+
+.chip-xsmall {
+	height: 1.25rem;
+	gap: var(--spacing-0);
+	padding: var(--spacing-2);
+	border-radius: var(--border-radius-small);
+
+	.icon {
+		svg {
+			height: 0.75rem;
+			width: 0.75rem;
+		}
+	}
+}
+
+.chip-xsmall.chip-outline, .chip-xsmall.chip-filled {
+	border-width: var(--border-width-xsmall);
+	&:focus-visible {
+		box-shadow: 0 0 0 var(--border-width-xsmall) var(--colour-dark-blue-100);
+	}
+}
+
+.chip-filled.chip-inactive {
+	background-color: var(--colour-background-subtle-primary);
+	border-color: transparent;
+	border-style: solid;
+
+	&:hover {
+		background-color: var(--colour-sky-blue-100);
+	}
+
+	&:active {
+		background-color: var(--colour-sky-blue-200);
+	}
+
+	&:focus-visible {
+		background-color: var(--colour-background-subtle-primary);
+		border-color: var(--colour-border-focused);
+	}
+
+	.icon {
+		--svg-base: var(--colour-content-primary);
+	}
+	.label {
+		color: var(--colour-content-primary);
+	}
+}
+
+.chip-filled.chip-active, .chip-outline.chip-active {
+	background-color: var(--colour-background-inverted);
+	border-color: transparent;
+	border-style: solid;
+
+	&:hover {
+		background-color: var(--colour-dark-blue-800);
+	}
+
+	&:active {
+		background-color: var(--colour-dark-blue-700);
+	}
+
+	&:focus-visible {
+		background-color: var(--colour-background-inverted);
+		border-color: var(--colour-border-focused);
+	}
+
+	.icon {
+		--svg-base: var(--colour-content-inverted);
+	}
+	.label {
+		color: var(--colour-content-inverted);
+	}
+}
+
+.chip-outline.chip-inactive {
+	background-color: var(--colour-background-default);
+	border-style: solid;
+	border-color: var(--colour-border-primary);
+
+	&:hover {
+		background-color: var(--colour-sky-blue-200);
+		border-color: var(--colour-border-contrast);
+	}
+
+	&:active {
+		background-color: var(--colour-sky-blue-100);
+		border-color: var(--colour-border-contrast);
+	}
+
+	&:focus-visible {
+		background-color: var(--colour-background-default);
+		border-color: var(--colour-border-focused);
+	}
+
+	.icon {
+		--svg-base: var(--colour-content-primary);
+	}
+	.label {
+		color: var(--colour-content-primary);
+	}
+}
+
+.chip-pill {
+	border-radius: var(--border-radius-round);
+}

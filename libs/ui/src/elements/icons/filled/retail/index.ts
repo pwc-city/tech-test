@@ -1,0 +1,14 @@
+export { ReactComponent as BasketFilled } from './basket-filled.svg';
+export { ReactComponent as BriefcaseFilled } from './briefcase-filled.svg';
+export { ReactComponent as CompassFilled } from './compass-filled.svg';
+export { ReactComponent as CreditCardFilled } from './credit-card-filled.svg';
+export { ReactComponent as CreditCardPayFilled } from './credit-card-pay-filled.svg';
+export { ReactComponent as CreditCardRefundFilled } from './credit-card-refund-filled.svg';
+export { ReactComponent as HeartHandshakeFilled } from './heart-handshake-filled.svg';
+export { ReactComponent as SchoolFilled } from './school-filled.svg';
+export { ReactComponent as ShoppingBagFilled } from './shopping-bag-filled.svg';
+export { ReactComponent as ShoppingCartFilled } from './shopping-cart-filled.svg';
+export { ReactComponent as TagsFilled } from './tags-filled.svg';
+export { ReactComponent as Ticket2Filled } from './ticket-unable-filled.svg';
+export { ReactComponent as TicketFilled } from './ticket-filled.svg';
+export { ReactComponent as TrophyFilled } from './trophy-filled.svg';

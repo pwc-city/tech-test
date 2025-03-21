@@ -1,0 +1,9 @@
+{
+  "name": "frontapp",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/frontapp",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project frontapp --web",
+  "targets": {}
+}

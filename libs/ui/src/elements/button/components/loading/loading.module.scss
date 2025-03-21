@@ -1,0 +1,63 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+
+	.loader {
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		display: inline-block;
+
+		animation: rotation 1s linear infinite;
+
+		svg {
+			display: block;
+
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&.small {
+		height: 0.833rem;
+		width: 0.833rem;
+
+		.loader {
+			height: 0.833rem;
+			width: 0.833rem;
+		}
+	}
+
+	&.medium {
+		height: 1.042rem;
+		width: 1.042rem;
+
+		.loader {
+			height: 1.042rem;
+			width: 1.042rem;
+		}
+	}
+
+	&.large {
+		height: 1.25rem;
+		width: 1.25rem;
+
+		.loader {
+			height: 1.25rem;
+			width: 1.25rem;
+		}
+	}
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

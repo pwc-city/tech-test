@@ -1,0 +1,15 @@
+export { ReactComponent as CaretDown } from './caret-down.svg';
+export { ReactComponent as CaretLeft } from './caret-left.svg';
+export { ReactComponent as CaretRight } from './caret-right.svg';
+export { ReactComponent as CaretUp } from './caret-up.svg';
+export { ReactComponent as HalfTime } from './half-time.svg';
+export { ReactComponent as Injury } from './injury.svg';
+export { ReactComponent as KickOff } from './kick-off.svg';
+export { ReactComponent as PlayerIn } from './player-in.svg';
+export { ReactComponent as PlayerOut } from './player-out.svg';
+export { ReactComponent as PlayerTransferIn } from './player-transfer-in.svg';
+export { ReactComponent as PlayerTransferOut } from './player-transfer-out.svg';
+export { ReactComponent as Seat } from './seat.svg';
+export { ReactComponent as SoccerField } from './soccer-field.svg';
+export { ReactComponent as Substitute } from './substitute.svg';
+export { ReactComponent as Whistle } from './whistle.svg';

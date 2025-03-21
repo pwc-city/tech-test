@@ -1,0 +1,14 @@
+export { ReactComponent as Basket } from './basket.svg';
+export { ReactComponent as Briefcase } from './briefcase.svg';
+export { ReactComponent as Compass } from './compass.svg';
+export { ReactComponent as CreditCardPay } from './credit-card-pay.svg';
+export { ReactComponent as CreditCardRefund } from './credit-card-refund.svg';
+export { ReactComponent as CreditCard } from './credit-card.svg';
+export { ReactComponent as Frame } from './frame.svg';
+export { ReactComponent as HeartHandshake } from './heart-handshake.svg';
+export { ReactComponent as School } from './school.svg';
+export { ReactComponent as ShoppingBag } from './shopping-bag.svg';
+export { ReactComponent as ShoppingCart } from './shopping-cart.svg';
+export { ReactComponent as Tags } from './tags.svg';
+export { ReactComponent as Ticket } from './ticket.svg';
+export { ReactComponent as Trophy } from './trophy.svg';

@@ -1,0 +1,13 @@
+export { ReactComponent as CameraFilled } from './camera-filled.svg';
+export { ReactComponent as CameraPlusFilled } from './camera-plus-filled.svg';
+export { ReactComponent as ClockFilled } from './clock-filled.svg';
+export { ReactComponent as DeviceTvFilled } from './device-tv-filled.svg';
+export { ReactComponent as MuteFilled } from './mute-filled.svg';
+export { ReactComponent as PlayerPauseCircleFilled } from './player-pause-circle-filled.svg';
+export { ReactComponent as PlayerPauseFilled } from './player-pause-filled.svg';
+export { ReactComponent as PlayerPlayCircleFilled } from './player-play-circle-filled.svg';
+export { ReactComponent as PlayerPlayFilled } from './player-play-filled.svg';
+export { ReactComponent as PlayerStopCircleFilled } from './player-stop-circle-filled.svg';
+export { ReactComponent as PlayerStopFilled } from './player-stop-filled.svg';
+export { ReactComponent as RadioFilled } from './radio-filled.svg';
+export { ReactComponent as VolumeFilled } from './volume-filled.svg';

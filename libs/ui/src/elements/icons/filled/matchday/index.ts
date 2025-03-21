@@ -1,0 +1,15 @@
+export { ReactComponent as CaretDownFilled } from './caret-down-filled.svg';
+export { ReactComponent as CaretLeftFilled } from './caret-left-filled.svg';
+export { ReactComponent as CaretRightFilled } from './caret-right-filled.svg';
+export { ReactComponent as CaretUpFilled } from './caret-up-filled.svg';
+export { ReactComponent as HalfTimeFilled } from './half-time-filled.svg';
+export { ReactComponent as InjuryFilled } from './injury-filled.svg';
+export { ReactComponent as KickOffFilled } from './kick-off-filled.svg';
+export { ReactComponent as PlayerInFilled } from './player-in-filled.svg';
+export { ReactComponent as PlayerOutFilled } from './player-out-filled.svg';
+export { ReactComponent as PlayerTransferInFilled } from './player-transfer-in-filled.svg';
+export { ReactComponent as PlayerTransferOutFilled } from './player-transfer-out-filled.svg';
+export { ReactComponent as SeatFilled } from './seat-filled.svg';
+export { ReactComponent as SoccerFieldFilled } from './soccer-field-filled.svg';
+export { ReactComponent as SubstituteFilled } from './substitute-filled.svg';
+export { ReactComponent as WhistleFilled } from './whistle-filled.svg';
