@@ -72,7 +72,3 @@ The main task is to implement a feature that calls an external API and displays 
 Feel free to use tools or libraries of your choice, but prioritize code structure, reusability, accessibility, and clarity.
 
 If you have any questions or assumptions, please document them.
-
-
-  git config --global user.email "peter.costello@mancity.com"
-  git config --global user.name "Peter Costello"
